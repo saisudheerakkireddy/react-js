@@ -17,12 +17,7 @@
   margin: 10px;
   }
 
-  .res-card{
-    border: solid 1px black;
-    width: 200px;
-    height: auto;
-    margin: 5px;
-  }
+ 
   .res-card :hover{
     cursor: pointer;
     border: 1px solid black;
@@ -53,6 +48,27 @@
    margin: 10px;
 
 }
+.restaurant-card{
+ 
+ height: auto;
+ justify-content:space-evenly;
+ display: flex;
+ flex-wrap: wrap;
 
+  margin: 5px;
+}
 
+.restaurant-logo {
+  width: 150px;
+  height: auto; 
+}
+.image-container {
+  display: flex; 
+  gap: 10px;
+}
+
+.restaurant-logo {
+  width: 150px;
+  height: auto; 
+}
 
